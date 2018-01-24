@@ -1,6 +1,5 @@
 import Button1 from './plugin/vue-element'
 import Button2 from './plugin/vue-element2'
-import Vue from 'vue'
 
 const components = [
     Button1,
@@ -14,6 +13,7 @@ const install = function(Vue, opts = {}) {
     });
 }
 
-module.exports = {
+export default {
     install
-}
+ }
+
